@@ -3,6 +3,7 @@ import 'flowbite';
 
 const navEl= document.querySelector('.navbar');
 
+// Navbar scroll effect
 window.addEventListener('scroll', () => {
     if(window.scrollY >= 56){
         navEl.classList.add('navbar-scrolled')
@@ -11,7 +12,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
-const words = ["Hello!", "Welcome to SafeSphere Dynamics!", "This is SafeSphere Dynamics"];
+// Typewriter effect
+const words = ["Hello!", "Welcome to Advosafe!", "This is Advosafe"];
 let i = 0;
 let j = 0;
 let currentWord = "";
