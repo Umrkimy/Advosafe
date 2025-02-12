@@ -3,15 +3,6 @@ import 'flowbite';
 
 const navEl= document.querySelector('.navbar');
 
-// Navbar scroll effect
-window.addEventListener('scroll', () => {
-    if(window.scrollY >= 56){
-        navEl.classList.add('navbar-scrolled')
-    }  else if (window.scrollY < 56) {
-        navEl.classList.remove('navbar-scrolled')
-    }
-});
-
 // Typewriter effect
 const words = ["Hello!", "Welcome to Advosafe!", "This is Advosafe"];
 let i = 0;
@@ -42,4 +33,17 @@ function type() {
 }
 
 type();
+
+// Navbar scroll effect
+window.addEventListener('scroll', () => {
+    if(window.scrollY >= 56){
+        navEl.classList.add('navbar-scrolled')
+    }  else if (window.scrollY < 56) {
+        navEl.classList.remove('navbar-scrolled')
+    }
+});
+
+
+
+
 
