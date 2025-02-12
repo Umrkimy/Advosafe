@@ -4,15 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-blend-mode: overlay;
-    overflow-x: hidden;
-    min-height: 100vh;  
-    display: flex;
-    flex-direction: column;
-    color:#69707a;
-    background-color: rgba(0, 0, 0, 0.3);
-}
 
 .gap{
     padding-top: 71px;
@@ -70,3 +61,20 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease-out;
 }
+
+.bg-logo{
+    background-color: #001c41;
+    color: #d0bc99;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.text-logo{
+    color: #d0bc99;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
