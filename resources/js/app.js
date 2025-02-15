@@ -1,5 +1,6 @@
 import './bootstrap';
 import 'flowbite';
+import Swiper from 'swiper/bundle';
 
 const navEl= document.querySelector('.navbar');
 
@@ -43,7 +44,26 @@ window.addEventListener('scroll', () => {
     }
 });
 
-
+// Swiper
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  initialSlide: Math.floor(document.querySelectorAll('.swiper-slide').length / 2),
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 3,
+  spaceBetween: 30,
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  loop: true,
+});
 
 
 
