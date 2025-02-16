@@ -1,5 +1,7 @@
 @extends('layout.default')
 
+@section('title', 'About Us')
+
 @section('head')
 @endsection
 
