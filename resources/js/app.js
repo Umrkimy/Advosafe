@@ -5,7 +5,7 @@ import Swiper from 'swiper/bundle';
 const navEl= document.querySelector('.navbar');
 
 // Typewriter effect
-const words = ["Hello!", "Welcome to Advosafe!", "This is Advosafe"];
+const words = ["Training?", "Services?", "Certification?", "Consulting?"];
 let i = 0;
 let j = 0;
 let currentWord = "";
