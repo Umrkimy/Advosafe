@@ -28,8 +28,8 @@
 <section class=" p-5">
   <div class="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl">
     <div>
-      <h2 class="text-3xl font-bold text-center sm:text-5xl">New </h2>
-      <p class="max-w-3xl mx-auto mt-4 text-xl text-center ">Explore the latest features that enhance your learning experience and make it even more exciting.</p>
+      <h2 class="text-3xl font-bold text-center sm:text-5xl">New Features</h2>
+      <p class="max-w-3xl mx-auto mt-4 text-xl text-center ">Explore </p>
     </div>
     <div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
       <div>
