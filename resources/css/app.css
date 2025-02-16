@@ -75,8 +75,9 @@
 
 .text-logo{
     color: #d0bc99;
-    font-weight: 600;
-    font-size: 1.2rem;
+}
+.text-logo2{
+    color: #001c41;
 }
 
 /* Swiper */
@@ -84,16 +85,24 @@
     width: 100%;
     padding-top: 20px;
     padding-bottom: 50px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
-  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: 100%;
+        height: auto;
+    }
+}

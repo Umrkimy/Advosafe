@@ -19,7 +19,7 @@
             <nav class="bg-base-200 border-gray-200 ">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="{{route('home')}}" class="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="{{asset('images/Advosafe.png')}}" class="logo" alt="Flowbite Logo" />
+                        <img src="{{asset('images/Advosafe.png')}}" class="logo" alt="Advosafe" />
                     </a>
                     <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
@@ -39,22 +39,22 @@
                             </li>
                             <li>
                                 <div class="mt-3 relative text-black hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                                    <button id="dropdownNavbarLink1" data-dropdown-toggle="dropdownNavbar1" data-dropdown-trigger="hover" class="flex items-center justify-between w-full px-6 py-3 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto text-black ">Training <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="flex items-center justify-between w-full px-6 py-3 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto text-black ">Training <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                         </svg>
                                     </button>
                                 </div>
                                 <!-- Dropdown menu -->
-                                <div id="dropdownNavbar1" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-2/6">
-                                    <ul class="py-2 text-sm text-black " aria-labelledby="dropdownLargeButton1">
+                                <div id="dropdownHover" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-2/6">
+                                    <ul class="py-2 text-sm text-black " aria-labelledby="dropdownHoverButton">
                                         <li>
-                                            <a href="#" class="block px-6 py-3 hover:bg-gray-100 ">Dashboard</a>
+                                            <a href="#" class="block px-6 py-3 hover:bg-gray-100 ">In-House Training</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="block px-6 py-3 hover:bg-gray-100 ">Settings</a>
+                                            <a href="#" class="block px-6 py-3 hover:bg-gray-100 ">Public Training</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="block px-6 py-3 hover:bg-gray-100 ">Earnings</a>
+                                            <a href="#" class="block px-6 py-3 hover:bg-gray-100 ">Certification Training</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -62,7 +62,7 @@
 
                             <li>
                                 <div class="mt-3 relative text-black hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
-                                    <button id="dropdownNavbarLink2" data-dropdown-toggle="dropdownNavbar2" data-dropdown-trigger="hover" class="flex items-center justify-between w-full px-6 py-3 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto text-black">
+                                    <button id="dropdownHoverButton2" data-dropdown-toggle="dropdownHover2" data-dropdown-trigger="hover" class="flex items-center justify-between w-full px-6 py-3 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto text-black">
                                         Services
                                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
@@ -70,8 +70,8 @@
                                     </button>
                                 </div>
                                 <!-- Dropdown menu -->
-                                <div id="dropdownNavbar2" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-2/6">
-                                    <ul class="py-2 text-sm text-black" aria-labelledby="dropdownLargeButton2">
+                                <div id="dropdownHover2" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-2/6">
+                                    <ul class="py-2 text-sm text-black" aria-labelledby="dropdownHoverButton2">
                                         <li>
                                             <a href="#" class="block px-6 py-3 hover:bg-gray-100">Dashboard</a>
                                         </li>
@@ -115,7 +115,7 @@
     <footer class="footer bg-base-200 text-base-content p-10" data-theme="halloween">
         <nav>
             <h6 class="footer-title">Services</h6>
-            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Traning</a>
             <a class="link link-hover">Design</a>
             <a class="link link-hover">Marketing</a>
             <a class="link link-hover">Advertisement</a>
@@ -150,7 +150,7 @@
                 d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
             </img>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://advosafe.net/" class="hover:underline">Advosafe</a>. All Rights Reserved.</span>
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="{{route('home')}}" class="hover:underline">Advosafe</a>. All Rights Reserved.</span>
         </aside>
         <nav class="md:place-self-center md:justify-self-end">
             <div class="grid grid-flow-col gap-4">
